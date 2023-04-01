@@ -1,0 +1,211 @@
+
+@import url(./font/stylesheet.css);
+* {
+    box-sizing: border-box;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
+.main_container {
+    background:  #060025;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 93%;
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+.signin {
+    background: red;
+    padding: 0.5rem;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+.signin a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    background:  linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(./images/bg1\ .jpg);
+    margin: 1rem 1.5rem;
+    border-radius:15px;
+    padding: 4rem 2rem;
+}
+
+.text {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.text h1 {
+    padding-top: 4rem;
+}
+
+.text h1, p {
+    padding: 0 1rem;
+}
+
+
+.email input {
+    padding: 1rem;
+    border: none;
+    margin: 1.5rem 0;
+    border-radius: 3px;
+    background: #07070797;
+    outline: 1px solid #7e7c7c;
+    font-size: 1rem;
+    color: #ffffff;
+    width: 90%;
+
+}
+
+.email .input_button {
+    background: red;
+    border-radius: 5px;
+    margin: 1rem 0;
+    display: grid;
+    place-content: center;
+    height: 3.2rem;
+    width: 35%;
+}
+button {
+    font-size: 1.2rem;
+    height: 1.5rem;
+    background: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.second_container {
+    background: linear-gradient( #060025,#750041);
+    margin: 1rem;
+    border-radius: 15px;
+    
+}
+
+hr {
+    background-color:  #060025;;
+    height: 10px;
+    border: none;
+    margin: 1rem;
+}
+
+.last_section {
+    margin: 2.5rem;
+
+}
+.last_section h1 {
+    padding-top: 3rem;
+    width: 18rem;
+}
+
+.last_section .faq {
+    display: grid;
+    gap: 0.5rem;
+    margin: 1rem auto;
+}
+
+.f_question {
+    display: flex;
+    justify-content: space-between;
+    background: #0f0056;
+    padding: 1.5rem;
+
+}
+
+.footer_text {
+    margin: 2rem 5rem;
+    font-size: 1rem;
+}
+
+.footer_text p {
+    padding-bottom: 3rem;
+}
+
+
+footer {
+    margin: 3rem;
+    font-size: 1rem;
+}
+
+.first_footer li, .second_footer li {
+    padding: 0.5rem;
+    list-style: none;
+
+}
+.lang {
+    margin-left: 5rem;
+    background: #211b1b;;
+    padding: 1rem;
+    width: 7rem;
+    outline: 1px solid white;
+    border-radius: 3px;
+}
+
+@media screen and (min-width: 599px) {
+    section  {
+        margin: 3rem;
+        display: flex;
+
+    }
+    hr {
+        margin: 3rem;
+    }
+
+    section img {
+        height: 12rem;
+    }
+    .text h1{
+        font-weight: 600;
+        font-size: 2rem;
+    }
+    
+
+    .text p{
+        font-weight: 600;
+        font-size: 1rem;
+    }
+    .email {
+        width: 90%;
+        display: flex;
+    }
+
+    .email input  {
+        /* width: 50%; */
+
+    }
+    .email .input_button {
+        width: 50%;
+        margin: 1.5rem 0 0 0.5rem;
+    }
+
+
+    footer {
+        display: flex;
+        justify-content: space-around;
+    }
+
+       
+}
+@media screen and (min-width: 959px) {
+    .first_footer, .second_footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    
+}

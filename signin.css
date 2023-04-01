@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://assets.nflxext.com/ffe/siteui/vlv3/5523db5a-e2b2-497f-a88b-61f175c3dbad/339c1909-7a07-43b5-9e9f-48ad732595de/NG-en-20230306-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    height: 160vh;
+
+}
+
+.main img {
+    height: 9rem;
+}
+
+.main .card {
+    background: #000000d3;
+    width: 34%;
+    margin: 0 auto 4rem auto;
+    padding: 3rem 1rem 9rem 1.5rem;
+    border-radius: 5px;
+
+}
+
+.main .card h1 {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 2rem;
+    padding-left: 1.5rem;
+
+}
+
+form {
+    display: grid;
+    gap: 1rem;
+    margin: 1rem 3rem;
+
+}
+
+.main .card input {
+    padding: 1rem;
+    border: none;
+    border-radius: 3px;
+    background: #585555f1;
+    font-size: 1rem;
+    color: #ffffff;
+
+}
+
+.main .card button {
+    margin-top: 2rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 3px;
+    background: #ff0000;
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.main .need_help {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 3rem;
+    color: #a4a3a3;
+
+}
+
+.main .need_help a {
+    color: #a4a3a3;
+    text-decoration: none;
+
+}
+
+.main .need_help a:hover, .new_text a:hover, .terms a:hover{
+    text-decoration: underline;
+
+}
+
+.new_text {
+    color: #a4a3a3;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 3rem 0 1rem 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.new_text a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.terms {
+    color: #a4a3a3;
+    font-size: 1rem;
+    margin: 1rem 0 1rem 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+}
+
+.terms a {
+    color: #1807ff;
+    text-decoration: none;
+}
+
+
+.footer {
+    background: #030303f0;
+    width: 100%;
+    height: 10rem;
+    /* margin-top: 4rem; */
+    display: grid;
+    color: #a4a3a3;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+
+.footer a {
+    color: #a4a3a3;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.last_session {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.footer_links a {
+    color: #a4a3a3;
+    margin-top: 1rem;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+/* .footer_links a {
+    color: #a4a3a3;
+    text-decoration: none;
+    padding: 1rem;
+} */
