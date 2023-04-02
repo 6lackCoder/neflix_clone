@@ -45,24 +45,26 @@ main {
     padding: 4rem 2rem;
 }
 
-.text {
-    font-weight: 600;
-    font-size: 1.5rem;
+.text h1{
+    font-size: 45px;
+    padding-top: 4rem;
 }
 
-.text h1 {
-    padding-top: 4rem;
+.text p {
+    font-size: 20px;
 }
 
 .text h1, p {
     padding: 0 1rem;
 }
-
+.email {
+    margin-bottom: 2rem;
+}
 
 .email input {
     padding: 1rem;
     border: none;
-    margin: 1.5rem 0;
+    margin: 1rem 0;
     border-radius: 3px;
     background: #07070797;
     outline: 1px solid #7e7c7c;
@@ -75,11 +77,10 @@ main {
 .email .input_button {
     background: red;
     border-radius: 5px;
-    margin: 1rem 0;
     display: grid;
     place-content: center;
     height: 3.2rem;
-    width: 35%;
+    width: 40%;
 }
 button {
     font-size: 1.2rem;
@@ -92,8 +93,9 @@ button {
 
 .second_container {
     background: linear-gradient( #060025,#750041);
-    margin: 1rem;
+    margin: 1.5rem;
     border-radius: 15px;
+    padding-top: 3rem;
     
 }
 
@@ -150,47 +152,37 @@ footer {
 .lang {
     margin-left: 5rem;
     background: #211b1b;;
-    padding: 1rem;
+    padding: 0.5rem;
     width: 7rem;
     outline: 1px solid white;
     border-radius: 3px;
 }
 
-@media screen and (min-width: 599px) {
+@media only screen and (min-width: 599px) {
     section  {
-        margin: 3rem;
-        display: flex;
-
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 1rem 3rem;
     }
+
+
     hr {
         margin: 3rem;
     }
-
-    section img {
-        height: 12rem;
-    }
-    .text h1{
-        font-weight: 600;
-        font-size: 2rem;
-    }
     
 
-    .text p{
-        font-weight: 600;
-        font-size: 1rem;
+    section img {
+        height: 15rem;
     }
+    
     .email {
         width: 90%;
         display: flex;
     }
 
-    .email input  {
-        /* width: 50%; */
-
-    }
     .email .input_button {
         width: 50%;
-        margin: 1.5rem 0 0 0.5rem;
+        margin: 1rem 0 0 0.5rem;
     }
 
 
@@ -198,14 +190,30 @@ footer {
         display: flex;
         justify-content: space-around;
     }
-
        
 }
-@media screen and (min-width: 959px) {
+
+@media only screen and (min-width: 768px) {
+    
+}
+@media only screen and (min-width: 959px) {
     .first_footer, .second_footer {
         display: flex;
         justify-content: space-between;
     }
+    .email input {
+        width: 50%;
+    }
+    .email .input_button {
+        width: 30%;    
+}
+}
 
-    
+@media only screen and (min-width: 1100px){
+    .email input {
+        width: 40%;
+    }
+    .email .input_button {
+        width: 20%;    
+}
 }
